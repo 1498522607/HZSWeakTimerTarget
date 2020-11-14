@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0901B88B356F2DC55CB4FA83 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		16B83300D9302460D1E236F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0901B88B356F2DC55CB4FA83 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		16B83300D9302460D1E236F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2ABF96FAFC16F759B5418D1C /* Pods-HZSWeakTimerTarget_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZSWeakTimerTarget_Example.release.xcconfig"; path = "Target Support Files/Pods-HZSWeakTimerTarget_Example/Pods-HZSWeakTimerTarget_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HZSWeakTimerTarget_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZSWeakTimerTarget_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		79202DF470DB807EC8493905 /* Pods-HZSWeakTimerTarget_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZSWeakTimerTarget_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HZSWeakTimerTarget_Tests/Pods-HZSWeakTimerTarget_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFD835C70B0D672BE05C1965 /* Pods_HZSWeakTimerTarget_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZSWeakTimerTarget_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B46A35E75B3E9D08EB62400E /* HZSWeakTimerTarget.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HZSWeakTimerTarget.podspec; path = ../HZSWeakTimerTarget.podspec; sourceTree = "<group>"; };
+		B46A35E75B3E9D08EB62400E /* HZSWeakTimerTarget.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HZSWeakTimerTarget.podspec; path = ../HZSWeakTimerTarget.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CAF9E869B6C2A02653DC7572 /* Pods_HZSWeakTimerTarget_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZSWeakTimerTarget_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0CBF29648C453AD7202F4F /* Pods-HZSWeakTimerTarget_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZSWeakTimerTarget_Example.debug.xcconfig"; path = "Target Support Files/Pods-HZSWeakTimerTarget_Example/Pods-HZSWeakTimerTarget_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				79202DF470DB807EC8493905 /* Pods-HZSWeakTimerTarget_Tests.debug.xcconfig */,
 				6041AA7BE5B337A406C6C8B9 /* Pods-HZSWeakTimerTarget_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

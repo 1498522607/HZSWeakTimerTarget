@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HZSWeakTimerTarget (1.0.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HZSWeakTimerTarget (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  HZSWeakTimerTarget:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HZSWeakTimerTarget: 4311b45f01a5f9f310263d7e0974d34f80f60f99
+
+PODFILE CHECKSUM: 05d79d124e45b1986372feed0551e463c73c0e5f
+
+COCOAPODS: 1.9.3

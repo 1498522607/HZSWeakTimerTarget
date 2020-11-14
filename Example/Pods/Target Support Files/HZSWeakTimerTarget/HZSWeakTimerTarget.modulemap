@@ -1,0 +1,6 @@
+framework module HZSWeakTimerTarget {
+  umbrella header "HZSWeakTimerTarget-umbrella.h"
+
+  export *
+  module * { export * }
+}
