@@ -7,8 +7,10 @@
 //
 
 #import "HZSViewController.h"
+#import "HZSTestViewController.h"
 
 @interface HZSViewController ()
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end
 
@@ -18,7 +20,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
+
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    HZSTestViewController * testVC = [[HZSTestViewController alloc] init];
+    [self.navigationController pushViewController:testVC animated:YES];
+}
+
 
 - (void)didReceiveMemoryWarning
 {
